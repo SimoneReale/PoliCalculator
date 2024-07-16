@@ -22,3 +22,6 @@ jobs:
 
     - name: Run tests
       run: ctest --test-dir build
+
+    - name: Print logs
+      run: cat /home/runner/work/PoliCalculator/PoliCalculator/build/Testing/Temporary/LastTest.log
